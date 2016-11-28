@@ -162,6 +162,16 @@ angular.module('badku.controllers', [])
       },
 
 
+      {
+        "id": "eijaz_ahmed",
+        "name": "Dr. Eijaz Ahmed Khan",
+        "position": "Associate Professor",
+        "description": "Dr. Eijaz Ahmed Khan is currently serving as a Associate Professor at Business Administration Discipline of Khulna University in Bangladesh. ",
+        "photo": "eijaz_ahmed.png",
+
+      },
+
+
 
 
 
