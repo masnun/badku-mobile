@@ -124,7 +124,46 @@ angular.module('badku.controllers', [])
       },
 
 
-      
+      {
+        "id": "zahidur_rahman",
+        "name": "S M Zahidur Rahman",
+        "position": "Professor",
+        "description": "S M Zahidur Rahman is currently serving as a Professor at Business Administration Discipline of Khulna University in Bangladesh. ",
+        "photo": "zahidur_rahman.png",
+
+      },
+
+      {
+        "id": "nur_alam",
+        "name": "Dr. Md. Nur Alam",
+        "position": "Professor",
+        "description": "Dr. Md. Nur Alam is currently serving as a Professor at Business Administration Discipline of Khulna University in Bangladesh. ",
+        "photo": "nur_alam.png",
+
+      },
+
+      {
+        "id": "khashrul_alam",
+        "name": "Md. Khashrul Alam",
+        "position": "Professor",
+        "description": "Md. Khashrul Alam is currently serving as a Professor at Business Administration Discipline of Khulna University in Bangladesh. ",
+        "photo": "khashrul_alam.png",
+
+      },
+
+
+      {
+        "id": "rumana_haque",
+        "name": "Dr. Rumana Haque",
+        "position": "Professor",
+        "description": "Dr. Rumana Haque is currently serving as a Professor at Business Administration Discipline of Khulna University in Bangladesh. ",
+        "photo": "no_photo_female.png",
+
+      },
+
+
+
+
 
       {
         "id": "sm_arifuzzaman",
