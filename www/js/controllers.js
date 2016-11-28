@@ -1,6 +1,6 @@
 angular.module('badku.controllers', [])
 
-  .controller('AppCtrl', function ($scope, $ionicModal, $timeout) {
+  .controller('AppCtrl', function ($scope, $ionicModal, $timeout, $ionicHistory) {
 
     // With the new view caching in Ionic, Controllers are only called
     // when they are recreated or on app start, instead of every page change.
@@ -39,6 +39,37 @@ angular.module('badku.controllers', [])
         "photo": "no_photo.png",
 
       },
+
+      {
+        "id": "dr_mamunur_rashid",
+        "name": "Dr. Mamunur Rashid",
+        "position": "Professor",
+        "description": "Dr. Mamunur Rashid is currently serving as a Professor at Business Administration Discipline of Khulna University in Bangladesh.",
+        "photo": "dr_mamunur_rashid.png",
+
+      },
+
+      
+      {
+        "id": "dr_atm_jahir",
+        "name": "Dr. A T M Jahiruddin",
+        "position": "Professor",
+        "description": "Dr. A T M Jahiruddin is currently serving as a Professor at Business Administration Discipline of Khulna University in Bangladesh. ",
+        "photo": "dr_atm_jahir.png",
+
+      },
+
+      {
+        "id": "dr_noor_un_nabi",
+        "name": "Dr. Md. Noor Un Nabi",
+        "position": "Professor",
+        "description": "Dr. Md. Noor Un Nabi is currently serving as an Professor at Business Administration Discipline of Khulna University in Bangladesh. ",
+        "photo": "dr_noor_un_nabi.png",
+
+      },
+
+
+      
 
       {
         "id": "sm_arifuzzaman",
