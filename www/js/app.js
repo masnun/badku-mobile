@@ -75,7 +75,17 @@ angular.module('badku', ['ionic', 'badku.controllers'])
     views: {
       'menuContent': {
         templateUrl: 'templates/programs.html',
-        controller: 'FacultyCtrl'
+        
+      }
+    }
+  })
+
+  .state('app.contact', {
+    url: '/contact',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/contact.html',
+        
       }
     }
   })
