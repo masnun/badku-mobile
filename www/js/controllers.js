@@ -11,6 +11,10 @@ angular.module('badku.controllers', [])
 
     // Root controller
 
+    $scope.myGoBack = function() {
+      $ionicHistory.goBack();
+    };
+
     $scope.faculties = [
       {
         "id": "feroz_ahmed",
