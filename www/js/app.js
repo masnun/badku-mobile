@@ -51,6 +51,25 @@ angular.module('badku', ['ionic', 'badku.controllers'])
     }
   })
 
+   .state('app.faculties', {
+    url: '/faculties',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/faculties.html'
+      }
+    }
+  })
+
+  .state('app.faculty', {
+    url: '/faculty/:facultyId',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/faculty.html',
+        controller: 'FacultyCtrl'
+      }
+    }
+  })
+
   
   // if none of the above states are matched, use this as the fallback
   $urlRouterProvider.otherwise('/app/home');
